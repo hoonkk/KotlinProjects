@@ -2,6 +2,7 @@ package com.example.mywebbrowser
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.view.inputmethod.EditorInfo
 import android.webkit.WebViewClient
 import kotlinx.android.synthetic.main.activity_main.*
@@ -37,5 +38,10 @@ class MainActivity : AppCompatActivity() {
         else {
             super.onBackPressed()
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main, menu)
+        return true
     }
 }
