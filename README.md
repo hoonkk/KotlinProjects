@@ -3,7 +3,7 @@
 
 ## Purpose
 
-:books:
+:books: Studying
 
 ## Applications
 
